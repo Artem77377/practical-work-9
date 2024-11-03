@@ -18,7 +18,7 @@ int main()
 		cout << setw(10) << "x = " << x << setw(15) << "y = " << y << endl;
 		x += h;
 	}
-	cout << "****************DO_WHILE****************" << endl;
+	cout << "****************DO_WHILE***************" << endl;
 	x = x1;
 	do
 	{
