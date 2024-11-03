@@ -11,6 +11,4 @@ int main()
     cout << showpos<< dec << +1  << +24 << endl;
     cout << "String1" << '\n'<< '\t' << "String2" << '\n' << setw(23) << "String3" << endl;
     cout << setw(15) <<"String1" << '\n' << "String2" << endl;
-    cout << 3;
-    cout << "*";
 }
