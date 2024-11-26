@@ -23,7 +23,5 @@ int main()
 	double x, c, y, a, z;
 	cout << "Введіть x, c, y, a, z" << endl;
 	cin >> x >> c >> y >> a >> z;
-	cout << "A = " << fixed << setprecision(2) << func_a(x, c, y, z) << endl;
-	cout << "B = " << fixed << setprecision(2) << func_b(x, c, y, a, z) << endl;
-	cout << "C = " << fixed << setprecision(2) << func_c(func_a(x, c, y, z), func_b(x, c, y, a, z)) << endl;
+		cout << "C = " << fixed << setprecision(2) << func_c(func_a(x, c, y, z), func_b(x, c, y, a, z)) << endl;
 }
