@@ -17,15 +17,4 @@ int main()
 		cout << setw(10) << "x = " << x << setw(15) << "y = " << y << endl;
 		x += h;
 	}
-	cout << "****************DO_WHILE***************" << endl;
-	x = x1;
-		x = x1;
-	do
-	{
-		y = (log(pow(x, 2)) + pow(x, 2) + 2);
-		cout << setw(10) << "x = " << x << setw(15) << "y = " << y << endl;
-		x += h;
-	} while (x <= x2 + h);
-	c = sin(27);
-		cout << c;
 }
